@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.redDiv {
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  left: auto;
+  top: 20;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas{
+  border: 1px solid black;
+}
